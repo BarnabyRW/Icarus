@@ -10,7 +10,7 @@
     "com.unity.render-pipelines.high-definition": "6.9.0-preview",
     "com.unity.test-framework": "1.0.13",
     "com.unity.ugui": "1.0.0",
-    "com.unity.visualeffectgraph": "6.9.0-preview",
+    "com.unity.visualeffectgraph": "6.9.1-preview",
     "jp.keijiro.lasp": "https://github.com/keijiro/Lasp.git#upm",
     "com.unity.modules.androidjni": "1.0.0",
     "com.unity.modules.animation": "1.0.0",

@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Cloth
-  m_Shader: {fileID: 200, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: 50f8810ebff051a4fae071d8b92bcffe, type: 3}
   m_ShaderKeywords: _EMISSION
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
@@ -40,7 +40,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Diffuse:
-        m_Texture: {fileID: 2800000, guid: 1f51ca05485cc2540a9b9c6543975a3c, type: 3}
+        m_Texture: {fileID: 2800000, guid: d57dc8321a01db5409cd193167f02340, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
@@ -48,7 +48,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 97c9db2b2e374ad4988d0b5b73e31981, type: 3}
+        m_Texture: {fileID: 2800000, guid: d57dc8321a01db5409cd193167f02340, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -67,29 +67,37 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _node_5562:
+        m_Texture: {fileID: 2800000, guid: 7923d23155439434784e9755d1e60812, type: 3}
+        m_Scale: {x: 0.55, y: 1}
+        m_Offset: {x: -0.53, y: 0}
     m_Floats:
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _Gloss: 1
+    - _Gloss: 0.24
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _InvFade: 1
+    - _Lines: 5
     - _Metallic: 0
     - _Mode: 0
+    - _Multi: 0.01
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _Tessellation: 1
+    - _USpeed: 0.05
     - _UVSec: 0
     - _ZWrite: 1
     - _node_3360: 0.01
+    - _ramp: 0.84
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0, g: 0, b: 0, a: 1}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
     - _TintColor: {r: 0, g: 1, b: 0.8221295, a: 1}
