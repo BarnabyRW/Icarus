@@ -11,7 +11,7 @@ public class PhysicsFollower : MonoBehaviour
 
 	[Range(0f,1f)] public float positionStrength = 1f;
 	[Range(0f,1f)] public float rotationStrength = 1f;
-
+  	public float rotSpeed = 20.0f;
 	void Awake () 
 	{
 		rb = GetComponent<Rigidbody>();
@@ -35,6 +35,8 @@ public class PhysicsFollower : MonoBehaviour
 
 		if (angle > 180.0f) angle -= 360.0f;
 
-		if (angle != 0) rb.angularVelocity = (1f/Time.fixedDeltaTime * angle * axis * 0.01745329251994f * Mathf.Pow(rotationStrength, 90f*Time.fixedDeltaTime));
+		//if (angle != 0) rb.angularVelocity = (1f/Time.fixedDeltaTime * angle * axis * 0.01745329251994f * Mathf.Pow(rotationStrength, 90f*Time.fixedDeltaTime));
+		    Quaternion deltaRotation = Quaternion.Euler(new Vector3(0, 0, Input.GetAxis("Horizontal"))*rotSpeed* Time.deltaTime);
+        rb.MoveRotation(rb.rotation * deltaRotation);
 	}
 }
