@@ -75,12 +75,12 @@ Material:
     - _SpecularHighlights: 1
     - _Speed: 0
     - _SrcBlend: 1
-    - _Step: -0.07
+    - _Step: 0.65
     - _UVSec: 0
     - _ZWrite: 1
-    - _multi: 1
+    - _multi: 5.99
     - _node_4713: 0.7
-    - _power: 1
+    - _power: 7.86
     m_Colors:
     - _1A: {r: 1, g: 0.020983005, b: 0, a: 1}
     - _1B: {r: 0.18823528, g: 0, b: 1, a: 1}
